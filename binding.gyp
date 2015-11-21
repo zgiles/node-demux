@@ -16,7 +16,8 @@
 				{
 					'include_dirs' : [
 						"<!(node -e \"require('nan')\")",
-						"/usr/include/ffmpeg"
+						"/usr/include/ffmpeg",
+						"/opt/boxen/homebrew/include/"
 					],
 					'libraries': [
 						"-lavcodec",
